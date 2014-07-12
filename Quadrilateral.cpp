@@ -87,9 +87,9 @@ double Quadrilateral::getArea()
 // If no ostream parameter is supplied, default will be cout.
 void Quadrilateral::print( ostream & output )
 {
-    cout << "--------------\n";
+    output << "--------------\n";
     output << TYPE << "\n";
-    cout << "--------------\n";
+    output << "--------------\n";
     output << "Points:\n";
     output << "\tA = " << A << "\n";
     output << "\tB = " << B << "\n";
