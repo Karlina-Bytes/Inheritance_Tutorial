@@ -90,25 +90,25 @@ double Trapezoid::getArea()
 // If no ostream parameter is supplied, default will be cout.
 void Trapezoid::print( ostream & output )
 {
-    cout << "------------------------\n";
-    cout << TYPE << "\n";
-    cout << "------------------------\n";
-    cout << "Points:\n";
-    cout << "\tA = " << A << "\n";
-    cout << "\tB = " << B << "\n";
-    cout << "\tC = " << C << "\n";
-    cout << "\tD = " << D << "\n";
-    cout << "Side Lengths:\n";
-    cout << "\tAB = " << A.getDistance( B ) << "\n";
-    cout << "\tBC = " << B.getDistance( C ) << "\n";
-    cout << "\tCD = " << C.getDistance( D ) << "\n";
-    cout << "\tDA = " << D.getDistance( A ) << "\n";
-    cout << "Shape Properties:\n";
-    cout << "\tbase1= " << base1 << "\n";
-    cout << "\tbase2 = " << base2 << "\n";
-    cout << "\theight = " << height << "\n";
-    cout << "\tPerimeter = " << getPerimeter() << "\n";
-    cout << "\tArea = " << getArea() << "\n\n";
+    output << "------------------------\n";
+    output << TYPE << "\n";
+    output << "------------------------\n";
+    output << "Points:\n";
+    output << "\tA = " << A << "\n";
+    output << "\tB = " << B << "\n";
+    output << "\tC = " << C << "\n";
+    output << "\tD = " << D << "\n";
+    output << "Side Lengths:\n";
+    output << "\tAB = " << A.getDistance( B ) << "\n";
+    output << "\tBC = " << B.getDistance( C ) << "\n";
+    output << "\tCD = " << C.getDistance( D ) << "\n";
+    output << "\tDA = " << D.getDistance( A ) << "\n";
+    output << "Shape Properties:\n";
+    output << "\tbase1= " << base1 << "\n";
+    output << "\tbase2 = " << base2 << "\n";
+    output << "\theight = " << height << "\n";
+    output << "\tPerimeter = " << getPerimeter() << "\n";
+    output << "\tArea = " << getArea() << "\n\n";
 }
 
 // Friend function behaves like Trapezoid's print method.
