@@ -1,0 +1,343 @@
+---------------------------
+Point Tests...
+---------------------------
+
+	Default Point, A = (0,0)
+	Custom Point, B = (1,1)
+	Copy of Point A, named C = (0,0)
+	Reset C to (2,0)
+	Slope AB = 1
+	Distance AB = 1.41421
+	Slope AC = -0
+	Distance AC = 2
+
+---------------------------
+Quadrilateral Tests...
+---------------------------
+
+	Default Quadrilateral...
+--------------
+QUADRILATERAL
+--------------
+Points:
+	A = (0,0)
+	B = (1,1)
+	C = (2,1)
+	D = (3,-1)
+Side Lengths:
+	AB = 1.41421
+	BC = 1
+	CD = 2.23607
+	DA = 3.16228
+Shape Properties:
+	Perimeter = 7.81256
+	Area = 3
+
+	Copy Quadrilateral...
+--------------
+QUADRILATERAL
+--------------
+Points:
+	A = (0,0)
+	B = (1,1)
+	C = (2,1)
+	D = (3,-1)
+Side Lengths:
+	AB = 1.41421
+	BC = 1
+	CD = 2.23607
+	DA = 3.16228
+Shape Properties:
+	Perimeter = 7.81256
+	Area = 3
+
+	Custom Quadrilateral...
+--------------
+QUADRILATERAL
+--------------
+Points:
+	A = (-1,-1)
+	B = (0,2)
+	C = (2,2)
+	D = (4,0)
+Side Lengths:
+	AB = 3.16228
+	BC = 2
+	CD = 2.82843
+	DA = 5.09902
+Shape Properties:
+	Perimeter = 13.0897
+	Area = 9
+
+---------------------------
+Trapezoid Tests...
+---------------------------
+
+	Default Trapezoid...
+------------------------
+QUADRILATERAL/TRAPEZOID
+------------------------
+Points:
+	A = (0,0)
+	B = (1,1)
+	C = (3,1)
+	D = (5,0)
+Side Lengths:
+	AB = 1.41421
+	BC = 2
+	CD = 2.23607
+	DA = 5
+Shape Properties:
+	base1= 5
+	base2 = 2
+	height = 1.41421
+	Perimeter = 10.6503
+	Area = 4.94975
+
+	Copy Trapezoid from Quadrilateral...
+------------------------
+QUADRILATERAL/TRAPEZOID
+------------------------
+Points:
+	A = (0,0)
+	B = (1,1)
+	C = (3,1)
+	D = (5,0)
+Side Lengths:
+	AB = 1.41421
+	BC = 2
+	CD = 2.23607
+	DA = 5
+Shape Properties:
+	base1= 5
+	base2 = 2
+	height = 1.41421
+	Perimeter = 10.6503
+	Area = 4.94975
+
+	Copy Trapezoid from Trapezoid...
+------------------------
+QUADRILATERAL/TRAPEZOID
+------------------------
+Points:
+	A = (0,0)
+	B = (1,1)
+	C = (3,1)
+	D = (5,0)
+Side Lengths:
+	AB = 1.41421
+	BC = 2
+	CD = 2.23607
+	DA = 5
+Shape Properties:
+	base1= 5
+	base2 = 2
+	height = 1.41421
+	Perimeter = 10.6503
+	Area = 4.94975
+
+	Custom Trapezoid...
+------------------------
+QUADRILATERAL/TRAPEZOID
+------------------------
+Points:
+	A = (0,0)
+	B = (1,1)
+	C = (3,1)
+	D = (5,0)
+Side Lengths:
+	AB = 1.41421
+	BC = 2
+	CD = 2.23607
+	DA = 5
+Shape Properties:
+	base1= 5
+	base2 = 2
+	height = 1.41421
+	Perimeter = 10.6503
+	Area = 4.94975
+
+---------------------------
+Rectangle Tests...
+---------------------------
+
+	Default Rectangle...
+------------------------
+QUADRILATERAL/RECTANGLE
+------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (6,5)
+	D = (6,0)
+Side Lengths:
+	AB = 5
+	BC = 6
+	CD = 5
+	DA = 6
+Shape Properties:
+	width = 5
+	length = 6
+	Perimeter = 22
+	Area = 30
+
+	Copy Rectangle from Quadrilateral...
+------------------------
+QUADRILATERAL/RECTANGLE
+------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (6,5)
+	D = (6,0)
+Side Lengths:
+	AB = 5
+	BC = 6
+	CD = 5
+	DA = 6
+Shape Properties:
+	width = 5
+	length = 6
+	Perimeter = 22
+	Area = 30
+
+	Copy Rectangle from Rectangle...
+------------------------
+QUADRILATERAL/RECTANGLE
+------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (6,5)
+	D = (6,0)
+Side Lengths:
+	AB = 5
+	BC = 6
+	CD = 5
+	DA = 6
+Shape Properties:
+	width = 5
+	length = 6
+	Perimeter = 22
+	Area = 30
+
+	Custom Rectangle...
+------------------------
+QUADRILATERAL/RECTANGLE
+------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (6,5)
+	D = (6,0)
+Side Lengths:
+	AB = 5
+	BC = 6
+	CD = 5
+	DA = 6
+Shape Properties:
+	width = 5
+	length = 6
+	Perimeter = 22
+	Area = 30
+
+---------------------------
+Square Tests...
+---------------------------
+
+	Default Square...
+--------------------------------
+QUADRILATERAL/RECTANGLE/SQUARE
+--------------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (5,5)
+	D = (5,0)
+Side Lengths:
+	AB = 5
+	BC = 5
+	CD = 5
+	DA = 5
+Shape Properties:
+	length = 5
+	Perimeter = 20
+	Area = 25
+
+	Copy Square from Quadrilateral...
+--------------------------------
+QUADRILATERAL/RECTANGLE/SQUARE
+--------------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (5,5)
+	D = (5,0)
+Side Lengths:
+	AB = 5
+	BC = 5
+	CD = 5
+	DA = 5
+Shape Properties:
+	length = 5
+	Perimeter = 20
+	Area = 25
+
+	Copy Square from Rectangle...
+--------------------------------
+QUADRILATERAL/RECTANGLE/SQUARE
+--------------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (5,5)
+	D = (5,0)
+Side Lengths:
+	AB = 5
+	BC = 5
+	CD = 5
+	DA = 5
+Shape Properties:
+	length = 5
+	Perimeter = 20
+	Area = 25
+
+	Copy Square from Square...
+--------------------------------
+QUADRILATERAL/RECTANGLE/SQUARE
+--------------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (5,5)
+	D = (5,0)
+Side Lengths:
+	AB = 5
+	BC = 5
+	CD = 5
+	DA = 5
+Shape Properties:
+	length = 5
+	Perimeter = 20
+	Area = 25
+
+	Custom Square...
+--------------------------------
+QUADRILATERAL/RECTANGLE/SQUARE
+--------------------------------
+Points:
+	A = (0,0)
+	B = (0,5)
+	C = (5,5)
+	D = (5,0)
+Side Lengths:
+	AB = 5
+	BC = 5
+	CD = 5
+	DA = 5
+Shape Properties:
+	length = 5
+	Perimeter = 20
+	Area = 25
+
+Program ended with exit code: 0
