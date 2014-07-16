@@ -13,9 +13,11 @@
 #define Quadrilateral_h
 #include "Point.h"
 
-//---------------------------------------------------
-// Quadrilateral represents a four-sided polygon.
-//---------------------------------------------------
+//------------------------------------------------------------------------------
+// Quadrilateral represents a four-sided polygon whose vertices can be
+// circumscribed on a circle such that we get one area rather than two
+// triangles touching each other at a singe point.
+//------------------------------------------------------------------------------
 class Quadrilateral
 {
 protected:
@@ -25,6 +27,13 @@ protected:
     
     // A brief description of the class.
     const string TYPE = "QUADRILATERAL";
+    
+    // Determines whether the quadrilateral is cyclic using
+    // Ptolemy's Theorem:
+    //    If AB × CD + BC × DA = AC × BD,
+    //    where AB, CD, BC, and DA are side lengths,
+    //    Then the quadrilateral ABCD is cyclic.
+    bool isCyclicQuadrilateral();
     
 public:
     // Default constructor initializes all Points to default values.
