@@ -16,7 +16,7 @@
 //------------------------------------------------------------------------------
 // Quadrilateral represents a four-sided polygon whose vertices can be
 // circumscribed on a circle such that we get one area rather than two
-// triangles touching each other at a singe point.
+// triangles touching each other at a single point.
 //------------------------------------------------------------------------------
 class Quadrilateral
 {
